@@ -38,6 +38,8 @@ function Interview({params}) {
          <div className='p-5 border rounded-lg border-red-300 bg-yellow-100'>
             <h2 className='flex gap-2 items-center text-red-500'> <Lightbulb/><strong>Information</strong></h2>
             <h2 className='mt-3 text-red-600'>{process.env.NEXT_PUBLIC_INFORMATION}</h2>
+             <h2 className='mt-3 flex gap-2 items-center text-red-500'><strong>Disclaimer</strong></h2>
+            <p className='flex gap-2 items-center text-red-600'>Conduct a mock interview in a quiet environment, ensuring there is no external noise except for the user's voice.</p>
           </div>
       </div>
       <div>
