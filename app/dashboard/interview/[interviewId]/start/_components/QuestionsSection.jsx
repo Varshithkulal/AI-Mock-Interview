@@ -18,7 +18,7 @@ function QuestionsSection({mockInterviewQuestion,activeQuestionIndex}) {
         {mockInterviewQuestion&&mockInterviewQuestion.map((question,index)=>(
             <h2 className={`p-2 bg-secondary rounded-full
             text-xs md:text-sm text-center cursor-pointer
-            ${activeQuestionIndex==index&&'bg-blue-700 text-white'}`}>Question #{index+1}</h2>
+            ${activeQuestionIndex==index&&'bg-blue-700 text-purple-500'}`}>Question #{index+1}</h2>
         ))}
 
       </div>
@@ -32,6 +32,8 @@ function QuestionsSection({mockInterviewQuestion,activeQuestionIndex}) {
                 <strong>Note:</strong>
             </h2>
             <h2 className='text-sm text-blue-700 my-2'>{process.env.NEXT_PUBLIC_QUESTION_NOTE}</h2>
+          <h2 className='text-sm mt-3 flex gap-2 items-center text-red-700'><strong>Disclaimer</strong></h2>
+            <p className='text-sm flex gap-2 items-center text-red-700'>Please make sure to enable the audio before answering the question.</p>
         </div>
     </div>
   )
