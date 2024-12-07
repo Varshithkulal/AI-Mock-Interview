@@ -32,7 +32,7 @@ function QuestionsSection({mockInterviewQuestion,activeQuestionIndex}) {
                 <strong>Note:</strong>
             </h2>
             <h2 className='text-sm text-red-700 my-2'>{process.env.NEXT_PUBLIC_QUESTION_NOTE}</h2>
-          <h2 className='text-sm mt-3 flex gap-2 items-center text-red-700'><strong>Disclaimer</strong></h2>
+            <h2 className='text-sm mt-3 flex gap-2 items-center text-red-700'><strong>Disclaimer</strong></h2>
             <p className='text-sm flex gap-2 items-center text-red-700'>Please make sure to enable the audio before answering the question.</p>
         </div>
     </div>
