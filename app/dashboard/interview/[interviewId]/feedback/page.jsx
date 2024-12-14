@@ -42,7 +42,7 @@ function Feedback({params}) {
 
 
 
-      <h2 className='text-sm text-gray-500'>Fine below interview question with correct answer, your answer and feedbcak for improvement</h2>
+      <h2 className='text-sm text-gray-500'>Find below interview question with correct answer, your answer and feedbcak for improvement</h2>
       {feedbackList&&feedbackList.map((item,index)=>(
           <Collapsible key={index} className='mt-7'>
           <CollapsibleTrigger className='p-2 bg-secondary rounded-lg flex justify-between my-2
